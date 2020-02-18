@@ -1,0 +1,25 @@
+.important-information {
+  width: 275px;
+  margin-bottom: 32px;
+}
+
+.important-information__text {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.7;
+  text-align: center;
+  min-width: 274px;
+  color: #fff;
+  padding: 21px 10px 27px 10px;
+}
+
+.important-information__application {
+font-weight: 700;
+color: #e1942a;
+}
+
+.container__important-information {
+background-image: url('/img/pictures/pattern.png');
+background-color: #1a1b1c;
+}

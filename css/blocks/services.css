@@ -1,0 +1,124 @@
+.services {
+  margin-left: 21px;
+  margin-bottom: 15px;
+}
+
+.services__title {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 49px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.42;
+  color: #262424;
+  margin-bottom: 34px;
+}
+
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.services__list--vertical {
+  margin-right: -31px;
+}
+
+.services__item {
+  width: 265px;
+  margin-right: 31px;
+  margin-bottom: 45px;
+} 
+
+.picture__shell {
+  position: relative;
+}
+
+.services__picture {
+  margin-bottom: 17px;
+}
+
+.services__picture-fitness {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 33%;
+  left: 26%;
+  color: #fff;
+}
+
+.services__picture-diet {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 34%;
+  left: 19%;
+  color: #fff;
+}
+
+
+.services__picture-yoga {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 32%;
+  left: 32%;
+  color: #fff;
+}
+
+.services__picture-tpx {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35%;
+  left: 19%;
+  color: #fff;
+}
+
+.services__picture-crossfit {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35%;
+  left: 20%;
+  color: #fff;
+}
+
+.services__picture-swimm {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 24px;
+  line-height: 1.42;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  color: #fff;
+}
+
+.services__subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  color: #262424;
+  letter-spacing: 1px;
+}
+
+.services__text {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 300;
+  color: #262424;
+}

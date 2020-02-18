@@ -1,0 +1,17 @@
+.copyright {
+  font-size: 14px;
+  line-height: 1.42;
+  padding: 10px 15px 15px 1px;
+}
+
+.copyright__link {
+  font-weight: 700;
+  text-decoration: underline;
+  color: #fff;
+}
+
+.copyright__author {
+  font-weight: 700;
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,99 @@
+.header {
+  background-color: #1a1b1c;
+  color: #fff;
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  min-height: 77px;
+}
+
+.header__logo {
+  padding: 23px 20px 20px 2px;
+  letter-spacing: 1px;
+}
+
+.header__main-link {
+  font-family: 'Gora', Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.42;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #e1942a;
+}
+
+.header__navigation {
+  display: flex;
+}
+
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header__item {
+  margin-right: 30px;
+  list-style: none;
+}
+
+.header__link {
+  display: flex;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 3;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__item--active .header__link {
+  color: #e1942a;
+}
+
+.header__link:hover {
+  color:  #e1942a;
+}
+
+.header__link:before {
+  content: "";
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 10px;
+  width: 22px;
+  height: 20px;
+  background: left bottom / contain no-repeat;
+}
+
+.header__item--icon--general .header__link:before {
+  background-image: url('../../img/general-icon.png');
+}
+
+.header__item--icon--general .header__link:hover:before {
+  background-image: url('../../img/general-hover_icon.png');
+}
+
+.header__item--icon--reviews .header__link:before {
+  background-image: url('../../img/reviews_icon.png');
+}
+
+.header__item--icon--reviews .header__link:hover:before {
+  background-image: url('../../img/reviews-hover_icon.png');
+}
+
+
+.header__item--icon--service .header__link:before {
+  background-image: url('../../img/service_icon.png');
+}
+
+
+.header__item--icon--service .header__link:hover:before {
+  background-image: url('../../img/service-hover_icon.png');
+}
+
+.header__item--active .header__item--icon--general .header__link:before {
+  background-image: url('../../img/general-hover_icon.png');
+}

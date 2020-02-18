@@ -1,0 +1,14 @@
+.footer {
+  background-color: #1a1b1c;
+  color: #fff;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__title {
+  padding: 28px 0px 20px 20px;
+  letter-spacing: 1px;
+}

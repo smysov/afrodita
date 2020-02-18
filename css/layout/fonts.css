@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Gora";
+  src: url('../../fonts/gora-regular.woff2') format('woff2'),
+       url('../../fonts/gora-regular.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}

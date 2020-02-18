@@ -1,0 +1,37 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  width: 275px;
+  margin-bottom: 39px;
+}
+
+.partners__title {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.42;
+  color: #262424;
+  padding-top: 25px;
+  margin-bottom: 45px;
+}
+
+.partners__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.partners__item {
+  margin-bottom: 50px;
+}
+
+.partners__logo {
+  filter: grayscale(100%);
+}
+
+.partners__logo:hover {
+  filter: grayscale(0%);
+  transition: 0.5s cubic-bezier(.11,0,.34,-0.23);
+}

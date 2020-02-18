@@ -1,0 +1,30 @@
+.top-news {
+  align-self: center;
+  margin-bottom: 14px;
+}
+
+.top-news__title {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.75;
+  text-transform: uppercase;
+  text-align: center;
+  color: #262424;
+  letter-spacing: 2px;
+  padding-top: 10px;
+  margin-bottom: 18px
+}
+
+.top-news__month {
+  color: #656464;
+}
+
+.top-news__item {
+  margin-bottom: 20px;
+}
+
+.top-news__picture {
+  display: block;
+  object-fit: cover;
+}

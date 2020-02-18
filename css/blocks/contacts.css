@@ -1,0 +1,17 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 12px 0px 9px 20px;
+}
+
+.contacts_phone {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.42;
+  text-align: right;
+  text-decoration: none;
+  color: inherit;
+  padding-top: 1px;
+}
